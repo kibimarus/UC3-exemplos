@@ -1,0 +1,56 @@
+
+body{
+    /* ^ 100vh = 100% do Viewport (Tela toda) */
+    /* * Aumentamos a altura (height) do body pois ele não
+    * ocupa ela toda em altura. com a medida 'vh' ele vai ocupar*/
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    width: 70%;
+    /* * Centralizando */
+    margin: auto;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div h1{
+    font-size: 54px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input{
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+button{
+    padding: 30px;
+    background-color: green;
+    color: white;
+    font-size: 28px;
+}

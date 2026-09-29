@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://aestheticwallpapers.io/wallpaper/940918.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background-color: rgba(255, 255, 255, 0.671);
+    border: 1px solid rgb(0, 92, 128);
+    padding:30px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px rgb(43, 40, 40);
+    color: rgb(241, 150, 196);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+    border-bottom: 500px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+input{
+    width: 500px;
+    padding: 1px;
+    font-size: 24px;
+    background-color:transparent ;
+    border-radius: 5px;
+    color: rgb(241, 150, 196);
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+#enviar{
+    width: 100%;
+    background-color: rgb(241, 150, 196);
+    border: 1px solid rgb(199, 125, 162);
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#enviar:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 233, 255);
+    font-size: 26px;
+    border: 1px solid rgb(200, 233, 255) ;
+}
+
+
+

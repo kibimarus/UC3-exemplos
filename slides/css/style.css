@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFE1FF;
+    text-align: center;
+
+}
+
+h1{
+    margin-top: 40px;
+}
+
+.container{
+    width: 600px;
+    height: 300px;
+
+    margin: 30px auto;
+    /*? overflow: hidden; = impede a área de rolagem */
+    overflow: hidden;
+}
+
+.slide{
+    /* ? Deixar inicialmente invisível */
+     color: #6367FF;
+    display: none;
+    width: 100%;
+    height: 100%;
+
+    /* ? centraliza verticalmente */
+    align-items: center;
+    /* ? centraliza horizontalmente */
+    justify-content: center;
+    flex-direction: column;
+    color: blue;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* ? mesmo que todo slide tenha a mesma classe  */
+/* ? podemos selecionar um específico com a selção nth-child */
+
+.slide:nth-child(1){
+    background-color: #E4B1F0;
+}
+.slide:nth-child(2){
+ background-color: #7E60BF;
+}
+.slide:nth-child(3){
+    background-color: #433878;
+}
+.slide:nth-child(4){
+    background-color: #2b254d;
+}
+
+
+/* ? Esta classe não foi colocada no html */
+
+/* ! como vai funcionar */
+/* ? quando for a vez daquele slide aparecer todos os outros irão sumir e o que será mostrado receberá a classe .ativo */
+/* ? o ativo vai trocar o display none para display:flex */
+.ativo{
+    display: flex;
+}
+
+button{
+    padding: 12px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px ;
+    background-color: #433878;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: 4ms;
+}
+
+button:hover{
+    background-color: #7767c7;
+}

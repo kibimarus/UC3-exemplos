@@ -1,0 +1,90 @@
+body{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;   
+       font-size: 30px;
+       background-color:rgb(245, 232, 197) ;
+       color: rgb(48, 22, 7);
+       margin: 0;
+       padding: 0;
+       
+}
+
+.logo{
+        width: 300px;
+        margin-left: 710px;
+}
+
+header{
+        background-color: rgb(167, 121, 70);
+        position: fixed;
+            /* &position fixed - matém ela FIXA mesmo que role*/
+            /*? Usando position fixed temos acesso as prioridades exclussivas, por ter colocado fixed  eu posso colocar a distancia dele perante os campos da tela */
+            /*& top 0 diz que ele é 0px longe do topo da página , isso que dizer que é colado ao topo*/
+        top: 0px;
+        left: 0px;
+            /*! largura 100% para ocupar toda a página horizontal*/
+        width: 100%;
+}
+
+nav{
+        display: inline;
+      
+}
+
+.menu{
+             /*&* Tirando os pontinhos da lista*/
+        list-style-type: none;
+             /* ^ fazer com que a lista em si se torne 'inline'*/
+             /* & aceita ficar ao lado da imagem*/
+        display: inline;
+             /*! Posicionar a vontade */
+        position: absolute;
+        right: 10px;
+        top: 100px;
+       
+}
+
+.menu li{
+            /*! editando a <lista> do menu*/
+        display: inline;
+        font-size: 22px;
+       
+}
+
+.menu li a{ 
+        color: rgb(187, 91, 1)
+            /*& a trasição é sempre colocado no original, (sem ser o hover)*/
+        transition: all 50s;
+        text-decoration:none;
+        margin-right: 20px;
+}
+
+.menu li a:hover{
+    color: rgb(110, 66, 0);
+    font-size:  26px; 
+}
+
+img.banner {
+    width: 100%;
+    height: 500px;
+}
+
+.servicos{
+    background-color: rgb(233, 172, 98);
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top:  30px;
+    padding: 40px;
+    display: flex;
+    /*organiza os 'cards'*/
+}
+
+.card{
+    border: 5px solid rgb(245, 232, 197);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:3px 6px 2px rgb(161, 153, 129) ;
+    flex: 1;
+    
+}

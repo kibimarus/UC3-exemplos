@@ -1,0 +1,193 @@
+/* Aterisco ou *= TODAS AS TAGS*/
+*{
+    margin: 0;
+    padding: 0;
+    /*? box-sizing define o tamanho total que é consideirado pelo site*/
+    /*  ?Por padrão (mesmo sem escrever) ele já vem como content box dessa forma quando colocamos 'padding' por exemplo ele cresce além do que definimos*/
+    box-sizing: content
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 76, 78);
+    background-color: rgb(213, 237, 238);
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+.cabecalho{
+    height: 80px;
+    padding: 0px 80px;
+    background-color: rgb(183, 203, 205);
+    border-bottom: 1px solid rgb(108, 161, 172);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color:rgb(114, 150, 150) ;
+    font: size 26px; ;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menu a{
+    color: rgb(91, 146, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.menu a:hover{
+    color: rgb(54, 89, 117);
+}
+.inicio{
+    min-height: none;
+    padding: 80px;
+    background-color: rgba(3, 34, 34, 0.466);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60 px; 
+}
+.inicio-texto{
+    width: 50%;
+}
+.inicio-texto h1{
+    color: rgb(30, 53, 53);
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.inicio-texto p{
+    color: darkslategray;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.botao{ 
+    display: inline-block;
+    padding: 14px 25px;
+    background-color: darkslategrey;
+    color:white;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color:  rgb(59, 99, 99);
+}
+ .inicio-imagem{
+     width: 50%;
+     display: flex;
+     justify-content: center;
+ }
+.codigo{
+    width: 300px;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+    color:cyan;
+    border-radius:10px;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 2;
+}
+.espaco{
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+}
+.cursos{
+    padding: 80px;
+    text-align: center;
+
+}
+.cursos h2{
+    color: darkslategray;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.descricao-secao{
+    color:  darkslategray;
+    margin-bottom: 40px;
+}
+.lista-cursos{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.card{
+    width: 280px;
+    padding: 30px;
+    background-color: rgb(184, 225, 226);;
+    border: 1px solid rgb(108, 161, 172);
+    ;
+    border-radius: 8px;
+    text-align: left;
+    transition: all 0.4s;
+}
+.card:hover{
+    border-color: rgb(122, 182, 194);;
+    background-color:  rgb(133, 204, 214);
+    color: white;
+
+}
+.card p{
+    color:  rgb(54, 92, 92);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.card a{
+    color:  rgb(47, 111, 128);;
+    font-weight: bold;
+}
+
+/* ?SOBRE-------------------------------------------------- */
+.sobre{
+    padding: 80px;
+    background-color:  rgba(3, 34, 34, 0.466);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.sobre-texto{
+    width: 60%;
+}
+.sobre-texto h2{
+    color: rgb(202, 227, 230);
+    font-size: 34px;
+    margin-bottom:20px;
+}
+.sobre-texto p{
+    color: darkslategray ;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+.sobre-destaque{
+    width: 300px;
+    padding: 30px;
+    background-color: rgb(202, 227, 230);
+    color: darkslategrey;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.sobre-destaque strong{
+    font-size: 25px;
+}
+.rodape{
+    padding: 25px;
+    background-color: darkslategrey;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

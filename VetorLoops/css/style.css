@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    height: 100vh;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
+}
+
+.container{
+    background-color: azure;
+    padding:50px ;
+    width:40% ;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    text-align: center;
+    border: 2px solid rgb(185, 208, 219);
+    border-radius: 10px;
+    box-shadow: 5px 10px 1px rgb(116, 148, 199);
+}
+
+.container h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 0.4s;
+}
+
+h1.trocado{
+    font-size: 52px;
+    color: rgb(43, 172, 189);
+    text-shadow: 2px 2px 2px black  ;
+}
+
+#contador{
+    font-size:30px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    color: rgb(5, 76, 93);
+
+}
+.btn{
+    padding: 20px ;
+    font-size: 20px ;
+    text-transform:uppercase ;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.contar{
+    background-color: #00F2FE;
+    border: #00F2FE;
+    color: white;
+}
+.vetor{
+    background-color: #0a868d;
+    border: #00F2FE;
+    color: white;
+}
+.for{
+    background-color: #06585c;
+    border: #00F2FE;
+    color: white;
+}
+
+.trocar{
+    background-color: #4FACFE ;
+    color: white;
+    border: #4FACFE;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    /* ^ Controle total do tamanho das <tags> */
+    box-sizing: border-box;
+}
+body{
+    font-family: "Press Start 2P", system-ui;
+/* centralizar o div 'game' tanto vertical quanto horizontal */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ 
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.game{
+/* Placar e cartas um em baixo do outro */
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    border:2px solid black;
+    padding: 30px;
+    background: white;
+    width: 40%;
+    text-align: center;
+    gap:  15px;
+}
+.game>h1{
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+#pontos-jogador{
+    color: rgb(55, 23, 87);
+    /* text-transform: ; */
+}
+#pontos-maquina{
+    color: rgb(23, 49, 87);
+}
+.cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    gap: 15px;
+}
+#escolha{
+    font-size: 30px ;
+}
+.card{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25%;
+    height: 250px;
+    background-image: ;
+/* ? Centralizar (x e y) da imagem e nome da carta */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/* ? Distancia entre as imagens */
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.10s;
+
+}
+.card:hover{
+    border: 2px solid black;
+    background-color: rgb(221, 221, 221);
+}
+
+.card h2{
+    /* text-transform: uppercase; */
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+/* Diminuir o tamanho das imgs */
+.card img{
+    width: 150px;
+}
+ 

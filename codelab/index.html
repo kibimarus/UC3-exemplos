@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--?  css/ repressenta 'entrar na pasta', pois o arquivo que queremos acessar está lá dentro -->
+</head>
+<body>
+    <!-- ?cabeçalho da página -->
+    <header class = "cabecalho">
+        <div class= "logo">
+            codelab
+        </div>
+        <nav class= "menu"> 
+            <a href="#inicio">Início</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+     <!-- & CONTEÚDO PRINCIPAL -->
+        <main>
+            <!--& SEÇÃO INICIAL -->
+            <section class="inicio" id="inicio">
+                <div class="inicio-texto">
+                    <h1>Aprenda programaçãode forma slimples</h1>
+                    <p>
+                        estude HTML, CSS e programação por meio de aulas práticas e projetos.
+                    </p>
+                    <a href="cursos" class="botao">Ver cursos</a>
+                </div>
+                <!-- ? SEGUNDO FILHO DE SECTION.INICIO -->
+                <div class="inicio-imagem">
+                    <div class="codigo">
+                        <!-- ? &lt; = less than (sinal de menor) -->
+                        <!-- ? &gt; = greater than (sinal de maior)-->
+                        <p>&lt;html&gt;</p>
+                        <p class="espaco">
+                            &lt;h1&gt;Olá Mundo!&lt;h1&gt;
+                        </p>
+                        <p>&lt;html&gt;</p>
+                    </div>
+                </div>
+            </section>
+            <!-- ?SEGUNDA SEÇÃO: CURSOS -->
+            <section class="cursos">
+                <h2>Nossos Cursos</h2>
+                <p class="descricao-secao">
+                    Escolha uma tecnologia para começar seus estudos
+                </p>
+                <div class="lista-cursos">
+                <!-- ? Article- uma 'seção' de texto menor -->
+                    <article class="card">
+                        <h3>HTML</h3>
+                        <p>
+                            Aprenda a CRIAR a estrutura e o conteúdo das páginas
+                        </p>
+                        <a href="Saiba Mais">
+                        
+                                
+                            </a>
+                        </article>
+                        <!--* CSS -->
+                        <article class="card"> 
+                            <h3>CSS</h3>
+                           <p>
+                               Aprender a adicionar cores, tamanhos e estilos.
+                           </p>
+                            <a href="#">Saiba Mais</a>
+                            
+
+
+                        </article>
+                        <!-- * Flexbox------------ -->
+                        <article class="card">
+                            <h3>Flexbox</h3>
+                            <p>
+                                Aprenda a organizar Elementos usando Display Flexbox
+                            </p>
+                            <a href="#">Saiba Mais</a>
+                        </article>
+                    </div>
+                </section>
+                <section class="sobre">
+                    <div class="sobre-texto">
+                        <h2>Sobre a Codelab</h2>
+                        <p>
+                            A Codelab é uma escola criada para ajudar estudantes a aprenderem desenvolvimento web.
+                        </p>
+                        <p>
+                            Nossas aulas utilizam explicações simples, exemplos práticos e pequenos desafios.
+                        </p>
+                    </div>
+                    <div class="sobre-destaque">
+                        <strong>Aprender</strong>
+                        <strong>Praticar</strong>
+                        <strong>Criar</strong>
+                    </div>
+
+
+                </section>
+            </main>
+            <footer class="rodape">
+                <p>
+                    Codelab - Página criada com HTML e CSS
+                </p>
+            </footer>
+        </body>
+        </html>
